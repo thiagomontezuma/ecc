@@ -7,7 +7,7 @@
 > **Prerequisite**: This guide builds on [The Shorthand Guide to Everything Claude Code](./the-shortform-guide.md). Read that first if you haven't set up skills, hooks, subagents, MCPs, and plugins.
 
 ![Reference to Shorthand Guide](./assets/images/longform/02-shortform-reference.png)
-*The Shorthand Guide - read it first*
+_The Shorthand Guide - read it first_
 
 In the shorthand guide, I covered the foundational setup: skills and commands, hooks, subagents, MCPs, plugins, and the configuration patterns that form the backbone of an effective Claude Code workflow. That was the setup guide and the base infrastructure.
 
@@ -15,7 +15,7 @@ This longform guide goes into the techniques that separate productive sessions f
 
 The themes here: token economics, memory persistence, verification patterns, parallelization strategies, and the compound effects of building reusable workflows. These are the patterns I've refined over 10+ months of daily use that make the difference between being plagued by context rot within the first hour, versus maintaining productive sessions for hours.
 
-Everything covered in the shorthand and longform guides is available on GitHub: `github.com/affaan-m/everything-claude-code`
+Everything covered in the shorthand and longform guides is available on GitHub: `github.com/twebdevemt/ecc`
 
 ---
 
@@ -40,9 +40,10 @@ With lazy loading, the context window issue is mostly solved. But token usage an
 For sharing memory across sessions, a skill or command that summarizes and checks in on progress then saves to a `.tmp` file in your `.claude` folder and appends to it until the end of your session is the best bet. The next day it can use that as context and pick up where you left off, create a new file for each session so you don't pollute old context into new work.
 
 ![Session Storage File Tree](./assets/images/longform/03-session-storage.png)
-*Example of session storage -> https://github.com/affaan-m/everything-claude-code/tree/main/examples/sessions*
+_Example of session storage -> https://github.com/twebdevemt/ecc/tree/main/examples/sessions_
 
 Claude creates a file summarizing current state. Review it, ask for edits if needed, then start fresh. For the new conversation, just provide the file path. Particularly useful when you're hitting context limits and need to continue complex work. These files should contain:
+
 - What approaches worked (verifiably with evidence)
 - Which approaches were attempted but did not work
 - Which approaches have not been attempted and what's left to do
@@ -82,7 +83,7 @@ There are hooks most people don't know about that help with memory:
 - **Stop Hook (Session End)**: On session end, persist learnings to a file
 - **SessionStart Hook**: On new session, load previous context automatically
 
-I've built these hooks and they're in the repo at `github.com/affaan-m/everything-claude-code/tree/main/hooks/memory-persistence`
+I've built these hooks and they're in the repo at `github.com/twebdevemt/ecc/tree/main/hooks/memory-persistence`
 
 ---
 
@@ -94,7 +95,7 @@ If you've had to repeat a prompt multiple times and Claude ran into the same pro
 
 **The Solution:** When Claude Code discovers something that isn't trivial - a debugging technique, a workaround, some project-specific pattern - it saves that knowledge as a new skill. Next time a similar problem comes up, the skill gets loaded automatically.
 
-I've built a continuous learning skill that does this: `github.com/affaan-m/everything-claude-code/tree/main/skills/continuous-learning`
+I've built a continuous learning skill that does this: `github.com/twebdevemt/ecc/tree/main/skills/continuous-learning`
 
 **Why Stop Hook (Not UserPromptSubmit):**
 
@@ -111,7 +112,7 @@ Optimize the tools you use and subagent architecture designed to delegate the ch
 **Model Selection Quick Reference:**
 
 ![Model Selection Table](./assets/images/longform/04-model-selection.png)
-*Hypothetical setup of subagents on various common tasks and reasoning behind the choices*
+_Hypothetical setup of subagents on various common tasks and reasoning behind the choices_
 
 | Task Type                 | Model  | Why                                        |
 | ------------------------- | ------ | ------------------------------------------ |
@@ -129,14 +130,14 @@ Default to Sonnet for 90% of coding tasks. Upgrade to Opus when first attempt fa
 **Pricing Reference:**
 
 ![Claude Model Pricing](./assets/images/longform/05-pricing-table.png)
-*Source: https://platform.claude.com/docs/en/about-claude/pricing*
+_Source: https://platform.claude.com/docs/en/about-claude/pricing_
 
 **Tool-Specific Optimizations:**
 
 Replace grep with mgrep - ~50% token reduction on average compared to traditional grep or ripgrep:
 
 ![mgrep Benchmark](./assets/images/longform/06-mgrep-benchmark.png)
-*In our 50-task benchmark, mgrep + Claude Code used ~2x fewer tokens than grep-based workflows at similar or better judged quality. Source: https://github.com/mixedbread-ai/mgrep*
+_In our 50-task benchmark, mgrep + Claude Code used ~2x fewer tokens than grep-based workflows at similar or better judged quality. Source: https://github.com/mixedbread-ai/mgrep_
 
 **Modular Codebase Benefits:**
 
@@ -182,7 +183,7 @@ Main chat for code changes, forks for questions about the codebase and its curre
 **On Arbitrary Terminal Counts:**
 
 ![Boris on Parallel Terminals](./assets/images/longform/07-boris-parallel.png)
-*Boris (Anthropic) on running multiple Claude instances*
+_Boris (Anthropic) on running multiple Claude instances_
 
 Boris has tips on parallelization. He's suggested things like running 5 Claude instances locally and 5 upstream. I advise against setting arbitrary terminal amounts. The addition of a terminal should be out of true necessity.
 
@@ -203,7 +204,7 @@ cd ../project-feature-a && claude
 IF you are to begin scaling your instances AND you have multiple instances of Claude working on code that overlaps with one another, it's imperative you use git worktrees and have a very well-defined plan for each. Use `/rename <name here>` to name all your chats.
 
 ![Two Terminal Setup](./assets/images/longform/08-two-terminals.png)
-*Starting Setup: Left Terminal for Coding, Right Terminal for Questions - use /rename and /fork*
+_Starting Setup: Left Terminal for Coding, Right Terminal for Questions - use /rename and /fork_
 
 **The Cascade Method:**
 
@@ -222,11 +223,13 @@ When running multiple Claude Code instances, organize with a "cascade" pattern:
 For my own workflow management, I like to start an empty repo with 2 open Claude instances.
 
 **Instance 1: Scaffolding Agent**
+
 - Lays down the scaffold and groundwork
 - Creates project structure
 - Sets up configs (CLAUDE.md, rules, agents)
 
 **Instance 2: Deep Research Agent**
+
 - Connects to all your services, web search
 - Creates the detailed PRD
 - Creates architecture mermaid diagrams
@@ -315,7 +318,7 @@ alias q='cd ~/Desktop/projects'
 ## Milestone
 
 ![25k+ GitHub Stars](./assets/images/longform/09-25k-stars.png)
-*25,000+ GitHub stars in under a week*
+_25,000+ GitHub stars in under a week_
 
 ---
 
@@ -327,7 +330,7 @@ alias q='cd ~/Desktop/projects'
 
 **Self-Improving Memory:**
 
-- https://github.com/affaan-m/everything-claude-code/tree/main/skills/continuous-learning
+- https://github.com/twebdevemt/ecc/tree/main/skills/continuous-learning
 - rlancemartin.github.io/2025/12/01/claude_diary/ - Session reflection pattern
 
 **System Prompts Reference:**
@@ -351,4 +354,4 @@ alias q='cd ~/Desktop/projects'
 
 ---
 
-*Everything covered in both guides is available on GitHub at [everything-claude-code](https://github.com/affaan-m/everything-claude-code)*
+_Everything covered in both guides is available on GitHub at [ecc](https://github.com/twebdevemt/ecc)_
