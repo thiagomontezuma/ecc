@@ -2,17 +2,17 @@
 
 ## Table of Contents
 
-- [Code Quality & DevOps](#code-quality-devops-subagents)
+- [Code Quality & DevOps](#code-quality--devops-subagents)
 - [Core Development](#core-development-subagents)
 - [Language Specialists](#language-specialists-subagents)
 - [Infrastructure](#infrastructure-subagents)
-- [Quality & Security](#quality-security-subagents)
-- [Data & AI](#data-ai-subagents)
+- [Quality & Security](#quality--security-subagents)
+- [Data & AI](#data--ai-subagents)
 - [Developer Experience](#developer-experience-subagents)
 - [Specialized Domains](#specialized-domains-subagents)
-- [Business & Product](#business-product-subagents)
-- [Meta & Orchestration](#meta-orchestration-subagents)
-- [Research & Analysis](#research-analysis-subagents)
+- [Business & Product](#business--product-subagents)
+- [Meta & Orchestration](#meta--orchestration-subagents)
+- [Research & Analysis](#research--analysis-subagents)
 - [Getting Started](#getting-started)
 - [Best Practices](#best-practices)
 
