@@ -1,10 +1,26 @@
 # List of All Agents, What They Do and What They Are
 
+## Table of Contents
+
+- [Code Quality & DevOps](#code-quality-devops-subagents)
+- [Core Development](#core-development-subagents)
+- [Language Specialists](#language-specialists-subagents)
+- [Infrastructure](#infrastructure-subagents)
+- [Quality & Security](#quality-security-subagents)
+- [Data & AI](#data-ai-subagents)
+- [Developer Experience](#developer-experience-subagents)
+- [Specialized Domains](#specialized-domains-subagents)
+- [Business & Product](#business-product-subagents)
+- [Meta & Orchestration](#meta-orchestration-subagents)
+- [Research & Analysis](#research-analysis-subagents)
+- [Getting Started](#getting-started)
+- [Best Practices](#best-practices)
+
+---
+
 ## Code Quality & DevOps Subagents
 
 Code Quality & DevOps subagents are your essential toolkit for maintaining high-quality, secure, and well-documented codebases. These specialized agents cover the entire quality spectrum — from code review to security auditing, from build error resolution to end-to-end testing, and from architecture planning to documentation maintenance.
-
-## 🎯 When to Use Code Quality & DevOps Subagents
 
 Use these subagents when you need to:
 
@@ -16,8 +32,6 @@ Use these subagents when you need to:
 - **Clean up dead code** and consolidate duplicates
 - **Keep documentation** in sync with your codebase
 - **Optimize databases** and resolve query performance issues
-
-## 📋 Available Subagents
 
 ### [**architect**](architect.md) - System design and scalability specialist
 
@@ -97,7 +111,7 @@ Documentation specialist that generates architectural codemaps from your codebas
 
 **Use when:** Updating codemaps and documentation, generating architectural maps, refreshing READMEs, or after major feature additions.
 
-## 🚀 Quick Selection Guide
+### Code Quality & DevOps Quick Reference
 
 | If you need to...                  | Use this subagent        |
 | ---------------------------------- | ------------------------ |
@@ -115,7 +129,7 @@ Documentation specialist that generates architectural codemaps from your codebas
 | Remove dead code and duplicates    | **refactor-cleaner**     |
 | Update docs and codemaps           | **doc-updater**          |
 
-## 💡 Common Workflows
+### 💡 Common Workflows
 
 **New Feature Development:**
 
@@ -153,39 +167,9 @@ Documentation specialist that generates architectural codemaps from your codebas
 3. Run **security-reviewer** for security-sensitive changes
 4. Use **database-reviewer** for any SQL or schema changes
 
-## 🎬 Getting Started
-
-1. **Choose the right subagent** based on your current task
-2. **Provide clear context** about your project and what you need
-3. **Let the subagent run diagnostics** — most will automatically analyze your code
-4. **Follow the prioritized feedback** — fix Critical issues first, then High, then Medium
-5. **Iterate** — re-run the subagent after making changes to verify fixes
-
-Each subagent comes with:
-
-- Deep expertise in their specific domain
-- Automated diagnostic commands and tool integrations
-- Prioritized output (Critical → High → Medium → Low)
-- Specific fix examples and code snippets
-- Awareness of common anti-patterns and pitfalls
-
-## 📚 Best Practices
-
-- **Review every change:** Run **code-reviewer** on all code modifications, no exceptions
-- **Test first:** Use **tdd-guide** before writing implementation code
-- **Security is not optional:** Run **security-reviewer** on anything touching user input, auth, or money
-- **Minimal diffs for fixes:** Build resolvers make the smallest possible changes — don't refactor while fixing
-- **Document as you go:** Use **doc-updater** after major features, not just before releases
-- **Clean regularly:** Schedule **refactor-cleaner** sessions to prevent technical debt accumulation
-- **Language-specific reviews:** Always use **go-reviewer** or **python-reviewer** in addition to the general reviewer
-
-Choose your subagent and start building with confidence!
-
 ## Core Development Subagents
 
 Core Development subagents are your essential toolkit for building modern applications from the ground up. These specialized agents cover the entire development spectrum - from backend services to frontend interfaces, from mobile apps to desktop applications, and from simple APIs to complex distributed systems.
-
-## 🎯 When to Use Core Development Subagents
 
 Use these subagents when you need to:
 
@@ -196,8 +180,6 @@ Use these subagents when you need to:
 - **Develop real-time features** for interactive applications
 - **Modernize legacy systems** with current best practices
 - **Optimize performance** across the entire stack
-
-## 📋 Available Subagents
 
 ### [**api-designer**](api-designer.md) - REST and GraphQL API architect
 
@@ -265,7 +247,7 @@ Specialist in WordPress ecosystem who builds everything from simple blogs to ent
 
 **Use when:** Building WordPress sites, developing custom themes, creating plugins, implementing WooCommerce solutions, or optimizing WordPress performance.
 
-## 🚀 Quick Selection Guide
+### Core Development Quick Reference
 
 | If you need to...                  | Use this subagent           |
 | ---------------------------------- | --------------------------- |
@@ -281,7 +263,7 @@ Specialist in WordPress ecosystem who builds everything from simple blogs to ent
 | Add real-time features             | **websocket-engineer**      |
 | Create a WordPress site            | **wordpress-master**        |
 
-## 💡 Common Combinations
+### 💡 Common Combinations
 
 **Full-Stack Web Application:**
 
@@ -313,37 +295,9 @@ Specialist in WordPress ecosystem who builds everything from simple blogs to ent
 - Add **php-pro** for custom PHP development
 - Use **frontend-developer** for custom JavaScript
 
-## 🎬 Getting Started
-
-1. **Choose the right subagent** based on your specific needs
-2. **Provide clear context** about your project requirements
-3. **Specify your tech stack** preferences if any
-4. **Describe your constraints** (performance, scalability, timeline)
-5. **Let the subagent guide you** through best practices and implementation
-
-Each subagent comes with:
-
-- Deep expertise in their domain
-- Knowledge of current best practices
-- Ability to work with your existing codebase
-- Focus on clean, maintainable code
-- Understanding of production requirements
-
-## 📚 Best Practices
-
-- **Start with architecture:** Use architects (API, GraphQL, Microservices) before implementation
-- **Iterate frequently:** Work with subagents in short cycles for better results
-- **Combine expertise:** Use multiple subagents for complex projects
-- **Follow conventions:** Each subagent knows the best practices for their domain
-- **Think production-ready:** All subagents consider scalability, security, and maintenance
-
-Choose your subagent and start building amazing applications today!
-
 ## Language Specialists Subagents
 
 Language Specialists are your expert guides for specific programming languages and their ecosystems. These subagents bring deep knowledge of language idioms, best practices, performance optimization techniques, and framework expertise. Whether you're working with modern web frameworks, system programming languages, or enterprise platforms, these specialists ensure you're writing idiomatic, efficient, and maintainable code.
-
-## When to Use Language Specialists
 
 Use these subagents when you need to:
 
@@ -354,8 +308,6 @@ Use these subagents when you need to:
 - **Solve language-specific challenges** with expert guidance
 - **Learn advanced patterns** and idioms of a language
 - **Build framework-specific applications** with confidence
-
-## Available Subagents
 
 ### [**angular-architect**](angular-architect.md) - Angular 15+ enterprise patterns expert
 
@@ -513,7 +465,7 @@ Vue.js framework specialist mastering the Composition API, reactivity system, an
 
 **Use when:** Creating Vue applications, implementing Composition API patterns, working with Nuxt.js, or optimizing Vue performance.
 
-## Quick Selection Guide
+### Language Specialists Quick Reference
 
 | Language/Framework | Subagent                        | Best For                                       |
 | ------------------ | ------------------------------- | ---------------------------------------------- |
@@ -542,7 +494,7 @@ Vue.js framework specialist mastering the Composition API, reactivity system, an
 | TypeScript         | **typescript-pro**              | Type-safe JavaScript                           |
 | Vue                | **vue-expert**                  | Progressive web apps                           |
 
-## Common Technology Stacks
+### Common Technology Stacks
 
 **Modern Web Application:**
 
@@ -573,29 +525,9 @@ Vue.js framework specialist mastering the Composition API, reactivity system, an
 - **elixir-expert** for fault-tolerant distributed systems
 - **elixir-expert** + Phoenix LiveView for real-time web apps
 
-## Getting Started
-
-1. **Identify your technology stack** and choose the appropriate specialist
-2. **Describe your project context** including existing code and constraints
-3. **Specify your goals** (learning, optimization, implementation)
-4. **Share relevant code** for context-aware assistance
-5. **Follow the specialist's guidance** for best practices
-
-## Best Practices
-
-- **Use language idioms:** Each specialist knows the idiomatic way to write code
-- **Leverage ecosystem tools:** Specialists understand the full ecosystem
-- **Follow framework conventions:** Each framework has its own best practices
-- **Consider performance early:** Language-specific optimizations matter
-- **Think about maintenance:** Write code that future developers will understand
-
-Choose your language specialist and write better code today!
-
 ## Infrastructure Subagents
 
 Infrastructure subagents are your DevOps and cloud computing experts, specializing in building, deploying, and maintaining modern infrastructure. These specialists handle everything from CI/CD pipelines to cloud architecture, from container orchestration to database administration. They ensure your applications run reliably, scale efficiently, and deploy seamlessly across any environment.
-
-## When to Use Infrastructure Subagents
 
 Use these subagents when you need to:
 
@@ -607,8 +539,6 @@ Use these subagents when you need to:
 - **Set up monitoring and observability** systems
 - **Respond to incidents** and ensure high availability
 - **Secure infrastructure** and implement best practices
-
-## Available Subagents
 
 ### [**azure-infra-engineer**](azure-infra-engineer.md) - Azure cloud infrastructure and automation specialist
 
@@ -700,7 +630,7 @@ Deep expertise in automating AD, DNS, DHCP, GPO, server configuration, and domai
 
 **Use when:** Managing domain infrastructure, modifying AD objects, updating DNS/DHCP records, automating GPO tasks, or performing server-level automation in enterprise environments.
 
-## Quick Selection Guide
+### Infrastructure Quick Reference
 
 | If you need to...                      | Use this subagent             |
 | -------------------------------------- | ----------------------------- |
@@ -718,7 +648,7 @@ Deep expertise in automating AD, DNS, DHCP, GPO, server configuration, and domai
 | Write infrastructure code              | **terraform-engineer**        |
 | Orchestrate Terraform/OpenTofu modules | **terragrunt-expert**         |
 
-## Common Infrastructure Patterns
+### Common Infrastructure Patterns
 
 **Cloud-Native Application:**
 
@@ -755,32 +685,9 @@ Deep expertise in automating AD, DNS, DHCP, GPO, server configuration, and domai
 - **sre-engineer** for prevention
 - **security-engineer** for security incidents
 
-## Getting Started
-
-1. **Assess your infrastructure needs** and current challenges
-2. **Choose the appropriate specialist** based on your requirements
-3. **Provide context** about your environment and constraints
-4. **Share existing configurations** if applicable
-5. **Follow the specialist's recommendations** for best practices
-
-## Best Practices
-
-- **Start with architecture:** Design before implementation
-- **Automate everything:** Manual processes don't scale
-- **Security first:** Build security into every layer
-- **Monitor proactively:** Observability prevents incidents
-- **Document thoroughly:** Future you will thank you
-- **Test infrastructure:** Infrastructure code needs testing too
-- **Plan for failure:** Design for resilience
-- **Iterate continuously:** Infrastructure evolves with needs
-
-Choose your infrastructure specialist and build reliable systems today!
-
 ## Quality & Security Subagents
 
 Quality & Security subagents are your guardians of code excellence and system protection. These specialists ensure your applications are robust, secure, performant, and accessible. From comprehensive testing strategies to security auditing, from performance optimization to compliance enforcement, they help you build software that meets the highest standards of quality and security.
-
-## When to Use Quality & Security Subagents
 
 Use these subagents when you need to:
 
@@ -792,8 +699,6 @@ Use these subagents when you need to:
 - **Debug complex issues** systematically
 - **Achieve compliance** with regulations
 - **Test system resilience** through chaos engineering
-
-## Available Subagents
 
 ### [**accessibility-tester**](accessibility-tester.md) - A11y compliance expert
 
@@ -879,7 +784,7 @@ Automation specialist building robust test frameworks. Expert in various testing
 
 **Use when:** Building test frameworks, automating test cases, integrating tests with CI/CD, improving test reliability, or scaling test automation.
 
-## Quick Selection Guide
+### Quality & Security Quick Reference
 
 | If you need to...      | Use this subagent        |
 | ---------------------- | ------------------------ |
@@ -896,7 +801,7 @@ Automation specialist building robust test frameworks. Expert in various testing
 | Audit security         | **security-auditor**     |
 | Build test frameworks  | **test-automator**       |
 
-## Common Quality Patterns
+### Common Quality Patterns
 
 **Comprehensive Testing:**
 
@@ -926,32 +831,9 @@ Automation specialist building robust test frameworks. Expert in various testing
 - **qa-expert** for quality processes
 - **test-automator** for test coverage
 
-## Getting Started
-
-1. **Identify quality concerns** in your application
-2. **Choose appropriate specialists** for your needs
-3. **Provide application context** and existing issues
-4. **Share relevant code and logs** for analysis
-5. **Implement recommended improvements** systematically
-
-## Best Practices
-
-- **Shift left:** Catch issues early in development
-- **Automate repetitively:** Manual testing doesn't scale
-- **Security throughout:** Security isn't an afterthought
-- **Performance matters:** Users expect fast applications
-- **Accessibility included:** Design for all users
-- **Test continuously:** Quality is ongoing
-- **Monitor production:** Learn from real usage
-- **Document findings:** Share knowledge with the team
-
-Choose your quality & security specialist and build better software today!
-
 ## Data & AI Subagents
 
 Data & AI subagents are your specialists in the world of data engineering, machine learning, and artificial intelligence. These experts handle everything from building robust data pipelines to training sophisticated ML models, from optimizing databases to deploying AI systems at scale. They bridge the gap between raw data and intelligent applications, ensuring your data-driven solutions are efficient, scalable, and impactful.
-
-## When to Use Data & AI Subagents
 
 Use these subagents when you need to:
 
@@ -963,8 +845,6 @@ Use these subagents when you need to:
 - **Create computer vision** applications
 - **Deploy ML models** with MLOps best practices
 - **Analyze data** for business insights
-
-## Available Subagents
 
 ### [**ai-engineer**](ai-engineer.md) - AI system design and deployment expert
 
@@ -1038,7 +918,7 @@ Prompt engineering expert crafting effective prompts for AI models. Masters prom
 
 **Use when:** Designing prompts for LLMs, optimizing AI responses, implementing prompt strategies, testing prompt effectiveness, or building prompt-based applications.
 
-## Quick Selection Guide
+### Data & AI Quick Reference
 
 | If you need to...     | Use this subagent             |
 | --------------------- | ----------------------------- |
@@ -1055,7 +935,7 @@ Prompt engineering expert crafting effective prompts for AI models. Masters prom
 | Optimize PostgreSQL   | **postgres-pro**              |
 | Design AI prompts     | **prompt-engineer**           |
 
-## Common Data & AI Patterns
+### Common Data & AI Patterns
 
 **End-to-End ML System:**
 
@@ -1085,32 +965,9 @@ Prompt engineering expert crafting effective prompts for AI models. Masters prom
 - **ai-engineer** for deployment
 - **data-engineer** for data flow
 
-## Getting Started
-
-1. **Define your data/AI objectives** clearly
-2. **Assess your data landscape** and requirements
-3. **Choose appropriate specialists** for your needs
-4. **Provide data context** and constraints
-5. **Follow best practices** for implementation
-
-## Best Practices
-
-- **Start with data quality:** Good models need good data
-- **Iterate quickly:** ML is experimental by nature
-- **Monitor everything:** Models drift, data changes
-- **Version control:** Track data, code, and models
-- **Document thoroughly:** ML systems are complex
-- **Test rigorously:** Validate models before production
-- **Scale gradually:** Start small, prove value
-- **Stay ethical:** Consider AI's impact
-
-Choose your data & AI specialist and unlock the power of your data today!
-
 ## Developer Experience Subagents
 
 Developer Experience subagents are your productivity multipliers, focusing on making development faster, easier, and more enjoyable. These specialists handle everything from code refactoring to documentation, from build optimization to Git workflows. They remove friction from the development process, automate repetitive tasks, and help teams work more efficiently with better tools and practices.
-
-## When to Use Developer Experience Subagents
 
 Use these subagents when you need to:
 
@@ -1122,8 +979,6 @@ Use these subagents when you need to:
 - **Streamline Git workflows** and branching strategies
 - **Modernize codebases** with latest practices
 - **Improve developer productivity** across teams
-
-## Available Subagents
 
 ### [**build-engineer**](build-engineer.md) - Build system specialist
 
@@ -1203,7 +1058,7 @@ Tooling expert building and integrating developer tools. Masters IDE configurati
 
 **Use when:** Setting up development tools, creating custom tooling, configuring IDEs, implementing code quality tools, or building developer platforms.
 
-## Quick Selection Guide
+### Developer Experience Quick Reference
 
 | If you need to...        | Use this subagent          |
 | ------------------------ | -------------------------- |
@@ -1219,7 +1074,7 @@ Tooling expert building and integrating developer tools. Masters IDE configurati
 | Build Slack integrations | **slack-expert**           |
 | Build dev tools          | **tooling-engineer**       |
 
-## Common DX Patterns
+### Common DX Patterns
 
 **Legacy Modernization:**
 
@@ -1249,32 +1104,9 @@ Tooling expert building and integrating developer tools. Masters IDE configurati
 - **git-workflow-manager** for code review
 - **documentation-engineer** for standards
 
-## Getting Started
-
-1. **Identify pain points** in your development process
-2. **Choose relevant specialists** for improvement
-3. **Analyze current state** of tools and workflows
-4. **Implement improvements** incrementally
-5. **Measure impact** on developer productivity
-
-## Best Practices
-
-- **Automate repetitive tasks:** Time saved compounds
-- **Document everything:** Future developers will thank you
-- **Incremental improvements:** Small changes add up
-- **Measure impact:** Track productivity gains
-- **Tool standardization:** Consistency reduces friction
-- **Developer feedback:** Listen to your users
-- **Continuous improvement:** DX is never "done"
-- **Share knowledge:** Spread best practices
-
-Choose your developer experience specialist and make development a joy!
-
 ## Specialized Domains Subagents
 
 Specialized Domains subagents are your experts in specific technology verticals and industries. These specialists bring deep knowledge of domain-specific challenges, regulations, and best practices. From blockchain and IoT to fintech and gaming, they understand the unique requirements and patterns of their specialized fields, helping you build applications that excel in these complex domains.
-
-## When to Use Specialized Domains Subagents
 
 Use these subagents when you need to:
 
@@ -1286,8 +1118,6 @@ Use these subagents when you need to:
 - **Develop embedded systems** with hardware constraints
 - **Create mobile applications** with native features
 - **Design financial algorithms** for trading systems
-
-## Available Subagents
 
 ### [**api-documenter**](api-documenter.md) - API documentation specialist
 
@@ -1355,7 +1185,7 @@ SEO expert driving organic traffic through search optimization. Masters technica
 
 **Use when:** Optimizing for search engines, implementing structured data, improving site speed, building content strategies, or analyzing search performance.
 
-## Quick Selection Guide
+### Specialized Domains Quick Reference
 
 | Domain            | Use this subagent        | Best For                         |
 | ----------------- | ------------------------ | -------------------------------- |
@@ -1371,7 +1201,7 @@ SEO expert driving organic traffic through search optimization. Masters technica
 | Risk Management   | **risk-manager**         | Risk assessment, compliance      |
 | SEO/Search        | **seo-specialist**       | Search optimization, rankings    |
 
-## Common Domain Patterns
+### Common Domain Patterns
 
 **Fintech Application:**
 
@@ -1408,32 +1238,9 @@ SEO expert driving organic traffic through search optimization. Masters technica
 - **mobile-app-developer** for mobile commerce
 - **risk-manager** for fraud prevention
 
-## Getting Started
-
-1. **Understand domain requirements** and constraints
-2. **Choose appropriate specialists** for your domain
-3. **Consider regulatory compliance** if applicable
-4. **Plan for domain-specific challenges** early
-5. **Leverage domain expertise** throughout development
-
-## Best Practices
-
-- **Domain knowledge matters:** Understand the field deeply
-- **Compliance is critical:** Many domains have regulations
-- **Security first:** Specialized domains often handle sensitive data
-- **Performance requirements:** Each domain has unique needs
-- **User expectations:** Domain users have specific workflows
-- **Industry standards:** Follow established patterns
-- **Stay updated:** Specialized domains evolve rapidly
-- **Test thoroughly:** Domain-specific edge cases matter
-
-Choose your specialized domain expert and build industry-leading applications!
-
 ## Business & Product Subagents
 
 Business & Product subagents bridge the gap between technology and business value. These specialists understand both technical implementation and business strategy, helping teams build products that users love and businesses thrive on. From product strategy to customer success, from business analysis to technical writing, they ensure technology serves real business needs and delivers measurable value.
-
-## When to Use Business & Product Subagents
 
 Use these subagents when you need to:
 
@@ -1445,8 +1252,6 @@ Use these subagents when you need to:
 - **Ensure legal compliance** in technical decisions
 - **Manage projects** effectively with Agile methods
 - **Bridge technical and business** communication
-
-## Available Subagents
 
 ### [**business-analyst**](business-analyst.md) - Requirements specialist
 
@@ -1508,7 +1313,7 @@ User research specialist uncovering user needs and behaviors. Expert in research
 
 **Use when:** Conducting user interviews, running usability tests, analyzing user behavior, creating personas, or validating product decisions.
 
-## Quick Selection Guide
+### Business & Product Quick Reference
 
 | If you need to...    | Use this subagent            |
 | -------------------- | ---------------------------- |
@@ -1523,7 +1328,7 @@ User research specialist uncovering user needs and behaviors. Expert in research
 | Write documentation  | **technical-writer**         |
 | Research users       | **ux-researcher**            |
 
-## Common Business Patterns
+### Common Business Patterns
 
 **Product Development:**
 
@@ -1553,32 +1358,9 @@ User research specialist uncovering user needs and behaviors. Expert in research
 - **technical-writer** for self-service
 - **sales-engineer** for adoption
 
-## Getting Started
-
-1. **Identify business objectives** clearly
-2. **Choose specialists** that align with goals
-3. **Provide business context** and constraints
-4. **Foster collaboration** between specialists
-5. **Measure business impact** continuously
-
-## Best Practices
-
-- **User-centric approach:** Always consider the end user
-- **Data-driven decisions:** Measure and validate
-- **Clear communication:** Bridge technical and business
-- **Iterative improvement:** Small steps, big impact
-- **Stakeholder alignment:** Keep everyone informed
-- **Documentation matters:** Knowledge should be accessible
-- **Legal compliance:** Consider regulations early
-- **Business value focus:** Technology serves business goals
-
-Choose your business & product specialist and build products that matter!
-
 ## Meta & Orchestration Subagents
 
 Meta & Orchestration subagents are your conductors and coordinators, managing complex multi-agent workflows and optimizing AI system performance. These specialists excel at the meta-level - orchestrating other agents, managing context, distributing tasks, and ensuring smooth collaboration between multiple AI systems. They turn chaos into symphony, making complex AI systems work harmoniously together.
-
-## When to Use Meta & Orchestration Subagents
 
 Use these subagents when you need to:
 
@@ -1590,8 +1372,6 @@ Use these subagents when you need to:
 - **Monitor performance** of AI workflows
 - **Design complex workflows** with multiple steps
 - **Scale AI operations** across teams
-
-## Available Subagents
 
 ### [**agent-organizer**](agent-organizer.md) - Multi-agent coordinator
 
@@ -1647,7 +1427,7 @@ Workflow specialist designing and executing sophisticated AI workflows. Expert i
 
 **Use when:** Designing complex workflows, implementing process automation, managing workflow state, handling long-running processes, or building workflow engines.
 
-## Quick Selection Guide
+### Meta & Orchestration Quick Reference
 
 | If you need to...          | Use this subagent           |
 | -------------------------- | --------------------------- |
@@ -1660,7 +1440,7 @@ Workflow specialist designing and executing sophisticated AI workflows. Expert i
 | Distribute tasks           | **task-distributor**        |
 | Automate workflows         | **workflow-orchestrator**   |
 
-## Common Orchestration Patterns
+### Common Orchestration Patterns
 
 **Complex Problem Solving:**
 
@@ -1690,32 +1470,9 @@ Workflow specialist designing and executing sophisticated AI workflows. Expert i
 - **agent-organizer** for research coordination
 - **workflow-orchestrator** for knowledge workflows
 
-## Getting Started
-
-1. **Map your workflow** and identify complexity
-2. **Choose orchestration strategy** based on needs
-3. **Design agent interactions** and dependencies
-4. **Implement monitoring** from the start
-5. **Iterate and optimize** based on performance
-
-## Best Practices
-
-- **Start simple:** Build complexity incrementally
-- **Monitor everything:** Visibility prevents issues
-- **Handle failures gracefully:** Expect and plan for errors
-- **Optimize context usage:** Context is precious
-- **Document workflows:** Complex systems need clarity
-- **Test at scale:** Small tests miss orchestration issues
-- **Version workflows:** Track changes over time
-- **Measure impact:** Quantify orchestration benefits
-
-Choose your meta & orchestration specialist and conduct your AI symphony!
-
 ## Research & Analysis Subagents
 
 Research & Analysis subagents are your investigative powerhouses, specializing in finding, analyzing, and synthesizing information from diverse sources. These experts excel at deep research, competitive intelligence, market analysis, and trend identification. They transform raw information into actionable insights, helping you make informed decisions based on comprehensive analysis and data-driven research.
-
-## When to Use Research & Analysis Subagents
 
 Use these subagents when you need to:
 
@@ -1727,8 +1484,6 @@ Use these subagents when you need to:
 - **Gather and analyze data** for insights
 - **Synthesize complex information** into clear findings
 - **Make data-driven decisions** with confidence
-
-## Available Subagents
 
 ### [**research-analyst**](research-analyst.md) - Comprehensive research specialist
 
@@ -1766,7 +1521,7 @@ Data investigation specialist extracting insights from complex datasets. Masters
 
 **Use when:** Analyzing datasets, discovering data patterns, performing statistical analysis, mining for insights, or investigating data anomalies.
 
-## Quick Selection Guide
+### Research & Analysis Quick Reference
 
 | If you need to...         | Use this subagent       |
 | ------------------------- | ----------------------- |
@@ -1777,7 +1532,7 @@ Data investigation specialist extracting insights from complex datasets. Masters
 | Understand markets        | **market-researcher**   |
 | Analyze data patterns     | **data-researcher**     |
 
-## Common Research Patterns
+### Common Research Patterns
 
 **Market Intelligence:**
 
@@ -1807,7 +1562,107 @@ Data investigation specialist extracting insights from complex datasets. Masters
 - **search-specialist** for information discovery
 - **trend-analyst** for industry evolution
 
+---
+
 ## Getting Started
+
+**Code Quality & DevOps:**
+
+1. **Choose the right subagent** based on your current task
+2. **Provide clear context** about your project and what you need
+3. **Let the subagent run diagnostics** — most will automatically analyze your code
+4. **Follow the prioritized feedback** — fix Critical issues first, then High, then Medium
+5. **Iterate** — re-run the subagent after making changes to verify fixes
+
+Each subagent comes with:
+
+- Deep expertise in their specific domain
+- Automated diagnostic commands and tool integrations
+- Prioritized output (Critical → High → Medium → Low)
+- Specific fix examples and code snippets
+- Awareness of common anti-patterns and pitfalls
+
+**Core Development:**
+
+1. **Choose the right subagent** based on your specific needs
+2. **Provide clear context** about your project requirements
+3. **Specify your tech stack** preferences if any
+4. **Describe your constraints** (performance, scalability, timeline)
+5. **Let the subagent guide you** through best practices and implementation
+
+Each subagent comes with:
+
+- Deep expertise in their domain
+- Knowledge of current best practices
+- Ability to work with your existing codebase
+- Focus on clean, maintainable code
+- Understanding of production requirements
+
+**Language Specialists:**
+
+1. **Identify your technology stack** and choose the appropriate specialist
+2. **Describe your project context** including existing code and constraints
+3. **Specify your goals** (learning, optimization, implementation)
+4. **Share relevant code** for context-aware assistance
+5. **Follow the specialist's guidance** for best practices
+
+**Infrastructure:**
+
+1. **Assess your infrastructure needs** and current challenges
+2. **Choose the appropriate specialist** based on your requirements
+3. **Provide context** about your environment and constraints
+4. **Share existing configurations** if applicable
+5. **Follow the specialist's recommendations** for best practices
+
+**Quality & Security:**
+
+1. **Identify quality concerns** in your application
+2. **Choose appropriate specialists** for your needs
+3. **Provide application context** and existing issues
+4. **Share relevant code and logs** for analysis
+5. **Implement recommended improvements** systematically
+
+**Data & AI:**
+
+1. **Define your data/AI objectives** clearly
+2. **Assess your data landscape** and requirements
+3. **Choose appropriate specialists** for your needs
+4. **Provide data context** and constraints
+5. **Follow best practices** for implementation
+
+**Developer Experience:**
+
+1. **Identify pain points** in your development process
+2. **Choose relevant specialists** for improvement
+3. **Analyze current state** of tools and workflows
+4. **Implement improvements** incrementally
+5. **Measure impact** on developer productivity
+
+**Specialized Domains:**
+
+1. **Understand domain requirements** and constraints
+2. **Choose appropriate specialists** for your domain
+3. **Consider regulatory compliance** if applicable
+4. **Plan for domain-specific challenges** early
+5. **Leverage domain expertise** throughout development
+
+**Business & Product:**
+
+1. **Identify business objectives** clearly
+2. **Choose specialists** that align with goals
+3. **Provide business context** and constraints
+4. **Foster collaboration** between specialists
+5. **Measure business impact** continuously
+
+**Meta & Orchestration:**
+
+1. **Map your workflow** and identify complexity
+2. **Choose orchestration strategy** based on needs
+3. **Design agent interactions** and dependencies
+4. **Implement monitoring** from the start
+5. **Iterate and optimize** based on performance
+
+**Research & Analysis:**
 
 1. **Define research objectives** clearly
 2. **Choose appropriate specialists** for your needs
@@ -1815,7 +1670,114 @@ Data investigation specialist extracting insights from complex datasets. Masters
 4. **Validate findings** through multiple sources
 5. **Apply insights** to decision-making
 
+---
+
 ## Best Practices
+
+**Code Quality & DevOps:**
+
+- **Review every change:** Run **code-reviewer** on all code modifications, no exceptions
+- **Test first:** Use **tdd-guide** before writing implementation code
+- **Security is not optional:** Run **security-reviewer** on anything touching user input, auth, or money
+- **Minimal diffs for fixes:** Build resolvers make the smallest possible changes — don't refactor while fixing
+- **Document as you go:** Use **doc-updater** after major features, not just before releases
+- **Clean regularly:** Schedule **refactor-cleaner** sessions to prevent technical debt accumulation
+- **Language-specific reviews:** Always use **go-reviewer** or **python-reviewer** in addition to the general reviewer
+
+**Core Development:**
+
+- **Start with architecture:** Use architects (API, GraphQL, Microservices) before implementation
+- **Iterate frequently:** Work with subagents in short cycles for better results
+- **Combine expertise:** Use multiple subagents for complex projects
+- **Follow conventions:** Each subagent knows the best practices for their domain
+- **Think production-ready:** All subagents consider scalability, security, and maintenance
+
+**Language Specialists:**
+
+- **Use language idioms:** Each specialist knows the idiomatic way to write code
+- **Leverage ecosystem tools:** Specialists understand the full ecosystem
+- **Follow framework conventions:** Each framework has its own best practices
+- **Consider performance early:** Language-specific optimizations matter
+- **Think about maintenance:** Write code that future developers will understand
+
+**Infrastructure:**
+
+- **Start with architecture:** Design before implementation
+- **Automate everything:** Manual processes don't scale
+- **Security first:** Build security into every layer
+- **Monitor proactively:** Observability prevents incidents
+- **Document thoroughly:** Future you will thank you
+- **Test infrastructure:** Infrastructure code needs testing too
+- **Plan for failure:** Design for resilience
+- **Iterate continuously:** Infrastructure evolves with needs
+
+**Quality & Security:**
+
+- **Shift left:** Catch issues early in development
+- **Automate repetitively:** Manual testing doesn't scale
+- **Security throughout:** Security isn't an afterthought
+- **Performance matters:** Users expect fast applications
+- **Accessibility included:** Design for all users
+- **Test continuously:** Quality is ongoing
+- **Monitor production:** Learn from real usage
+- **Document findings:** Share knowledge with the team
+
+**Data & AI:**
+
+- **Start with data quality:** Good models need good data
+- **Iterate quickly:** ML is experimental by nature
+- **Monitor everything:** Models drift, data changes
+- **Version control:** Track data, code, and models
+- **Document thoroughly:** ML systems are complex
+- **Test rigorously:** Validate models before production
+- **Scale gradually:** Start small, prove value
+- **Stay ethical:** Consider AI's impact
+
+**Developer Experience:**
+
+- **Automate repetitive tasks:** Time saved compounds
+- **Document everything:** Future developers will thank you
+- **Incremental improvements:** Small changes add up
+- **Measure impact:** Track productivity gains
+- **Tool standardization:** Consistency reduces friction
+- **Developer feedback:** Listen to your users
+- **Continuous improvement:** DX is never "done"
+- **Share knowledge:** Spread best practices
+
+**Specialized Domains:**
+
+- **Domain knowledge matters:** Understand the field deeply
+- **Compliance is critical:** Many domains have regulations
+- **Security first:** Specialized domains often handle sensitive data
+- **Performance requirements:** Each domain has unique needs
+- **User expectations:** Domain users have specific workflows
+- **Industry standards:** Follow established patterns
+- **Stay updated:** Specialized domains evolve rapidly
+- **Test thoroughly:** Domain-specific edge cases matter
+
+**Business & Product:**
+
+- **User-centric approach:** Always consider the end user
+- **Data-driven decisions:** Measure and validate
+- **Clear communication:** Bridge technical and business
+- **Iterative improvement:** Small steps, big impact
+- **Stakeholder alignment:** Keep everyone informed
+- **Documentation matters:** Knowledge should be accessible
+- **Legal compliance:** Consider regulations early
+- **Business value focus:** Technology serves business goals
+
+**Meta & Orchestration:**
+
+- **Start simple:** Build complexity incrementally
+- **Monitor everything:** Visibility prevents issues
+- **Handle failures gracefully:** Expect and plan for errors
+- **Optimize context usage:** Context is precious
+- **Document workflows:** Complex systems need clarity
+- **Test at scale:** Small tests miss orchestration issues
+- **Version workflows:** Track changes over time
+- **Measure impact:** Quantify orchestration benefits
+
+**Research & Analysis:**
 
 - **Start with clear questions:** Focus drives better research
 - **Use multiple sources:** Single sources can mislead
@@ -1825,5 +1787,3 @@ Data investigation specialist extracting insights from complex datasets. Masters
 - **Synthesize findings:** Raw data needs interpretation
 - **Update regularly:** Research has expiration dates
 - **Share insights:** Knowledge multiplies when shared
-
-Choose your research & analysis specialist and make better decisions today!
