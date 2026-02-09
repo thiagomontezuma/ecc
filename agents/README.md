@@ -1,6 +1,6 @@
 # List of All Agents, What They Do and What They Are
 
-# Code Quality & DevOps Subagents
+## Code Quality & DevOps Subagents
 
 Code Quality & DevOps subagents are your essential toolkit for maintaining high-quality, secure, and well-documented codebases. These specialized agents cover the entire quality spectrum — from code review to security auditing, from build error resolution to end-to-end testing, and from architecture planning to documentation maintenance.
 
@@ -181,7 +181,7 @@ Each subagent comes with:
 
 Choose your subagent and start building with confidence!
 
-# Core Development Subagents
+## Core Development Subagents
 
 Core Development subagents are your essential toolkit for building modern applications from the ground up. These specialized agents cover the entire development spectrum - from backend services to frontend interfaces, from mobile apps to desktop applications, and from simple APIs to complex distributed systems.
 
@@ -339,7 +339,7 @@ Each subagent comes with:
 
 Choose your subagent and start building amazing applications today!
 
-# Language Specialists Subagents
+## Language Specialists Subagents
 
 Language Specialists are your expert guides for specific programming languages and their ecosystems. These subagents bring deep knowledge of language idioms, best practices, performance optimization techniques, and framework expertise. Whether you're working with modern web frameworks, system programming languages, or enterprise platforms, these specialists ensure you're writing idiomatic, efficient, and maintainable code.
 
@@ -591,7 +591,7 @@ Vue.js framework specialist mastering the Composition API, reactivity system, an
 
 Choose your language specialist and write better code today!
 
-# Infrastructure Subagents
+## Infrastructure Subagents
 
 Infrastructure subagents are your DevOps and cloud computing experts, specializing in building, deploying, and maintaining modern infrastructure. These specialists handle everything from CI/CD pipelines to cloud architecture, from container orchestration to database administration. They ensure your applications run reliably, scale efficiently, and deploy seamlessly across any environment.
 
@@ -776,7 +776,7 @@ Deep expertise in automating AD, DNS, DHCP, GPO, server configuration, and domai
 
 Choose your infrastructure specialist and build reliable systems today!
 
-# Quality & Security Subagents
+## Quality & Security Subagents
 
 Quality & Security subagents are your guardians of code excellence and system protection. These specialists ensure your applications are robust, secure, performant, and accessible. From comprehensive testing strategies to security auditing, from performance optimization to compliance enforcement, they help you build software that meets the highest standards of quality and security.
 
@@ -947,7 +947,7 @@ Automation specialist building robust test frameworks. Expert in various testing
 
 Choose your quality & security specialist and build better software today!
 
-# Data & AI Subagents
+## Data & AI Subagents
 
 Data & AI subagents are your specialists in the world of data engineering, machine learning, and artificial intelligence. These experts handle everything from building robust data pipelines to training sophisticated ML models, from optimizing databases to deploying AI systems at scale. They bridge the gap between raw data and intelligent applications, ensuring your data-driven solutions are efficient, scalable, and impactful.
 
@@ -1106,7 +1106,7 @@ Prompt engineering expert crafting effective prompts for AI models. Masters prom
 
 Choose your data & AI specialist and unlock the power of your data today!
 
-# Developer Experience Subagents
+## Developer Experience Subagents
 
 Developer Experience subagents are your productivity multipliers, focusing on making development faster, easier, and more enjoyable. These specialists handle everything from code refactoring to documentation, from build optimization to Git workflows. They remove friction from the development process, automate repetitive tasks, and help teams work more efficiently with better tools and practices.
 
@@ -1270,7 +1270,7 @@ Tooling expert building and integrating developer tools. Masters IDE configurati
 
 Choose your developer experience specialist and make development a joy!
 
-# Specialized Domains Subagents
+## Specialized Domains Subagents
 
 Specialized Domains subagents are your experts in specific technology verticals and industries. These specialists bring deep knowledge of domain-specific challenges, regulations, and best practices. From blockchain and IoT to fintech and gaming, they understand the unique requirements and patterns of their specialized fields, helping you build applications that excel in these complex domains.
 
@@ -1429,7 +1429,7 @@ SEO expert driving organic traffic through search optimization. Masters technica
 
 Choose your specialized domain expert and build industry-leading applications!
 
-# Business & Product Subagents
+## Business & Product Subagents
 
 Business & Product subagents bridge the gap between technology and business value. These specialists understand both technical implementation and business strategy, helping teams build products that users love and businesses thrive on. From product strategy to customer success, from business analysis to technical writing, they ensure technology serves real business needs and delivers measurable value.
 
@@ -1574,7 +1574,7 @@ User research specialist uncovering user needs and behaviors. Expert in research
 
 Choose your business & product specialist and build products that matter!
 
-# Meta & Orchestration Subagents
+## Meta & Orchestration Subagents
 
 Meta & Orchestration subagents are your conductors and coordinators, managing complex multi-agent workflows and optimizing AI system performance. These specialists excel at the meta-level - orchestrating other agents, managing context, distributing tasks, and ensuring smooth collaboration between multiple AI systems. They turn chaos into symphony, making complex AI systems work harmoniously together.
 
@@ -1711,7 +1711,7 @@ Workflow specialist designing and executing sophisticated AI workflows. Expert i
 
 Choose your meta & orchestration specialist and conduct your AI symphony!
 
-# Research & Analysis Subagents
+## Research & Analysis Subagents
 
 Research & Analysis subagents are your investigative powerhouses, specializing in finding, analyzing, and synthesizing information from diverse sources. These experts excel at deep research, competitive intelligence, market analysis, and trend identification. They transform raw information into actionable insights, helping you make informed decisions based on comprehensive analysis and data-driven research.
 
