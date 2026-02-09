@@ -20,13 +20,13 @@ claude plugin marketplace add https://github.com/mixedbread-ai/mgrep
 
 ### Recommended Marketplaces
 
-| Marketplace | Source |
-|-------------|--------|
+| Marketplace             | Source                               |
+| ----------------------- | ------------------------------------ |
 | claude-plugins-official | `anthropics/claude-plugins-official` |
-| claude-code-plugins | `anthropics/claude-code` |
-| Mixedbread-Grep | `mixedbread-ai/mgrep` |
-| `supabase/agent-skills` |
-| `wshobson/agents` |
+| claude-code-plugins     | `anthropics/claude-code`             |
+| Mixedbread-Grep         | `mixedbread-ai/mgrep`                |
+| `supabase/agent-skills` |                                      |
+| `wshobson/agents`       |                                      |
 
 ---
 
@@ -43,29 +43,36 @@ claude plugin install typescript-lsp@claude-plugins-official
 ### Recommended Plugins
 
 **Development:**
+
 - `typescript-lsp` - TypeScript intelligence
 - `pyright-lsp` - Python type checking
 - `hookify` - Create hooks conversationally
 - `code-simplifier` - Refactor code
 
 **Code Quality:**
+
 - `code-review` - Code review
 - `pr-review-toolkit` - PR automation
 - `security-guidance` - Security checks
 
 **Search:**
+
 - `mgrep` - Enhanced search (better than ripgrep)
 - `context7` - Live documentation lookup
 
 **Workflow:**
+
 - `commit-commands` - Git workflow
 - `frontend-design` - UI patterns
 - `feature-dev` - Feature development
 
+<<<<<<< HEAD
 **Supabase**
+
 - `postgres-best-practices@supabase-agent-skills`
 
 **General**
+
 - `accessibility-compliance`
 - `agent-orchestration`
 - `api-scaffolding`
@@ -138,6 +145,10 @@ claude plugin install typescript-lsp@claude-plugins-official
 - `ui-design`
 - `unit-testing`
 - `web-scripting/agents`
+
+=======
+
+> > > > > > > upstream/main
 
 ---
 
