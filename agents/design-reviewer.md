@@ -178,9 +178,9 @@ Apply targeted checks depending on the type of UI being reviewed:
 - Check for design token usage (no magic numbers / hard-coded values)
 - Ensure adherence to established patterns
 - Verify CSS methodology is scalable:
-    - Utility-first (e.g., Tailwind CSS) with design tokens in config, or
-    - BEM with Sass and variables for tokens, or
-    - CSS-in-JS with scoped styles
+  - Utility-first (e.g., Tailwind CSS) with design tokens in config, or
+  - BEM with Sass and variables for tokens, or
+  - CSS-in-JS with scoped styles
 - Confirm design tokens (colors, fonts, spacing, radii) are directly integrated into the CSS architecture
 - Check that CSS is well-organized, readable, and performant (no unnecessary bloat)
 
