@@ -45,7 +45,6 @@ claude plugin install typescript-lsp@claude-plugins-official
 **Development:**
 
 - `typescript-lsp` - TypeScript intelligence
-- `pyright-lsp` - Python type checking
 - `hookify` - Create hooks conversationally
 - `code-simplifier` - Refactor code
 
@@ -57,8 +56,8 @@ claude plugin install typescript-lsp@claude-plugins-official
 
 **Search:**
 
-- `mgrep` - Enhanced search (better than ripgrep)
 - `context7` - Live documentation lookup
+- `firecrawl`
 
 **Workflow:**
 
@@ -66,10 +65,21 @@ claude plugin install typescript-lsp@claude-plugins-official
 - `frontend-design` - UI patterns
 - `feature-dev` - Feature development
 
-<<<<<<< HEAD
 **Supabase**
 
 - `postgres-best-practices@supabase-agent-skills`
+- `supabase`
+- `claude-code-setup`
+
+**Payment**
+
+- `stripe`
+
+**Security & Analytics**
+
+- `sentry`
+- `posthog`
+- `coderabbit`
 
 **General**
 
@@ -85,6 +95,7 @@ claude plugin install typescript-lsp@claude-plugins-official
 - `business-analytics`
 - `c4-architecture`
 - `cicd-automation`
+- `claude-md-management`
 - `cloud-infrastructure`
 - `code-documentation`
 - `code-refactoring`
@@ -145,10 +156,6 @@ claude plugin install typescript-lsp@claude-plugins-official
 - `ui-design`
 - `unit-testing`
 - `web-scripting/agents`
-
-=======
-
-> > > > > > > upstream/main
 
 ---
 
