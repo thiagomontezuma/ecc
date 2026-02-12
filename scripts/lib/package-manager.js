@@ -312,7 +312,7 @@ function getExecCommand(binary, args = '', options = {}) {
  */
 function getSelectionPrompt() {
   let message = '[PackageManager] No package manager preference detected.\n';
-  message += 'Supported package managers: ' + Object.keys(PACKAGE_MANAGERS).join(', ') + '\n';
+  message += 'Available package managers: ' + Object.keys(PACKAGE_MANAGERS).join(', ') + '\n';
   message += '\nTo set your preferred package manager:\n';
   message += '  - Global: Set CLAUDE_PACKAGE_MANAGER environment variable\n';
   message += '  - Or add to ~/.claude/package-manager.json: {"packageManager": "pnpm"}\n';
