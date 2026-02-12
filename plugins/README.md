@@ -24,7 +24,6 @@ claude plugin marketplace add https://github.com/mixedbread-ai/mgrep
 | ----------------------- | ------------------------------------ |
 | claude-plugins-official | `anthropics/claude-plugins-official` |
 | claude-code-plugins     | `anthropics/claude-code`             |
-| Mixedbread-Grep         | `mixedbread-ai/mgrep`                |
 | `supabase/agent-skills` |                                      |
 | `wshobson/agents`       |                                      |
 
@@ -121,6 +120,7 @@ claude plugin install typescript-lsp@claude-plugins-official
 - `dotnet-contribution`
 - `error-debugging`
 - `error-diagnostics`
+- `explanatory-output-style`
 - `framework-migration`
 - `frontend-mobile-development`
 - `frontend-mobile-security`
@@ -150,6 +150,7 @@ claude plugin install typescript-lsp@claude-plugins-official
 - `seo-technical-optimization/agents`
 - `shell-scripting`
 - `startup-business-analyst`
+- `superpowers`
 - `systems-programming`
 - `tdd-workflows`
 - `team-collaboration`
