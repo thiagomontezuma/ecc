@@ -68,6 +68,8 @@ Execute the full git autopush workflow:
     gh pr merge
     ```
 
+    If merge was successful and the branch used (beside main or master) was not currently available and especially created by the AI Agent then delete the branch. Howeverm if the merge was successful and the branch was already available and being constantly used by the user, then do not delete the branch. You can always ask the user what to do regarding the branch in case you are not sure what to do based on the instructions.
+
 ## Handling Merge Conflicts
 
 If the PR cannot be merged due to conflicts:
