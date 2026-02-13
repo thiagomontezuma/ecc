@@ -15,10 +15,4 @@ npm install -g @google/gemini-cli
 echo "📦 Installing npm packages..."
 npm install -g typescript ts-node
 
-# Install Python packages if requirements.txt exists
-if [ -f requirements.txt ]; then
-    echo "🐍 Installing Python packages..."
-    pip install -r requirements.txt
-fi
-
 echo "✅ Setup complete!"
