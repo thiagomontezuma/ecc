@@ -96,11 +96,6 @@ If the PR cannot be merged due to conflicts:
        git merge origin/main
 
     2. Open each conflicting file and find the conflict markers:
-       <<<<<<< HEAD
-       (your changes)
-       =======
-       (changes from main)
-       >>>>>>> origin/main
 
     3. Edit the file to keep the correct code (remove the markers)
 
