@@ -46,6 +46,9 @@
     },
     // Features
     "features": {
+        "ghcr.io/devcontainers/features/node:1": {
+            "version": "24"
+        },
         "ghcr.io/devcontainers/features/github-cli:1": {
             "version": "latest"
         }
