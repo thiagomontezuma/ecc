@@ -29,9 +29,7 @@
             },
             "extensions": [
                 "aevelop.darker-modern",
-                "anthropic.claude-code",
                 "bradlc.vscode-tailwindcss",
-                "codeium.codeium",
                 "dbaeumer.vscode-eslint",
                 "eamodio.gitlens",
                 "esbenp.prettier-vscode",
@@ -46,11 +44,8 @@
             ]
         }
     },
+    // Features
     "features": {
-        "ghcr.io/devcontainers/features/node:1": {
-            "version": "24"
-        },
-        "ghcr.io/devcontainers/features/git:1": {},
         "ghcr.io/devcontainers/features/github-cli:1": {
             "version": "latest"
         }
@@ -59,6 +54,9 @@
     "hostRequirements": {
         "cpus": 1
     },
+    // Commands
+    "waitFor": "onCreateCommand",
+    "postCreateCommand": "bash .devcontainer/setup.sh",
     // User
     "remoteUser": "codespace"
 }
