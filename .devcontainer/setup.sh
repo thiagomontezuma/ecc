@@ -5,7 +5,7 @@ echo "🚀 Starting custom setup..."
 
 # Install Claude Code
 echo "📦 Installing Claude Code..."
-npm install -g claude-code
+curl -fsSL https://claude.ai/install.sh | bash
 
 ## Install Google Gemini CLI
 echo "📦 Installing Gemini CLI..."
