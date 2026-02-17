@@ -50,18 +50,8 @@ def parse_instinct_file(content: str) -> list[dict]:
     for line in content.split('\n'):
         if line.strip() == '---':
             if in_frontmatter:
-<<<<<<< HEAD
-                # End of frontmatter
-                in_frontmatter = False
-                if current:
-                    current['content'] = '\n'.join(content_lines).strip()
-                    instincts.append(current)
-                    current = {}
-                    content_lines = []
-=======
                 # End of frontmatter - content comes next, don't append yet
                 in_frontmatter = False
->>>>>>> upstream/main
             else:
                 # Start of frontmatter
                 in_frontmatter = True

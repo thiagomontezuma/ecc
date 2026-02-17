@@ -50,7 +50,7 @@ This repo is the raw code only. The guides explain everything.
 </tr>
 </table>
 
-<<<<<<< HEAD
+
 | Topic | What You'll Learn |
 | ---------------------- | ------------------------------------------------------------- |
 | Token Optimization | Model selection, system prompt slimming, background processes |
@@ -59,7 +59,6 @@ This repo is the raw code only. The guides explain everything.
 | Verification Loops | Checkpoint vs continuous evals, grader types, pass@k metrics |
 | Parallelization | Git worktrees, cascade method, when to scale instances |
 | Subagent Orchestration | The context problem, iterative retrieval pattern |
-=======
 | Topic | What You'll Learn |
 |-------|-------------------|
 | Token Optimization | Model selection, system prompt slimming, background processes |
@@ -113,17 +112,15 @@ Get up and running in under 2 minutes:
 
 ```bash
 # Add marketplace
-<<<<<<< HEAD
+
 /plugin marketplace add twebdevemt/ecc
 
 # Install plugin
 /plugin install ecc@ecc
-=======
 /plugin marketplace add affaan-m/everything-claude-code
 
 # Install plugin
 /plugin install everything-claude-code@everything-claude-code
->>>>>>> upstream/main
 ```
 
 ### Step 2: Install Rules (Required)
@@ -133,12 +130,11 @@ Get up and running in under 2 minutes:
 
 ```bash
 # Clone the repo first
-<<<<<<< HEAD
+
 git clone https://github.com/twebdevemt/ecc.git
 
 # Copy rules (applies to all projects)
 cp -r ecc/rules/* ~/.claude/rules/
-=======
 git clone https://github.com/affaan-m/everything-claude-code.git
 # With Installer
 cd everything-claude-code
@@ -158,7 +154,6 @@ cp -r everything-claude-code/rules/common/* ~/.claude/rules/
 cp -r everything-claude-code/rules/typescript/* ~/.claude/rules/
 cp -r everything-claude-code/rules/python/* ~/.claude/rules/
 cp -r everything-claude-code/rules/golang/* ~/.claude/rules/
->>>>>>> upstream/main
 ```
 
 ### Step 3: Start Using
@@ -168,7 +163,7 @@ cp -r everything-claude-code/rules/golang/* ~/.claude/rules/
 /plan "Add user authentication"
 
 # Check available commands
-<<<<<<< HEAD
+
 /plugin list ecc@ecc
 ```
 
@@ -179,7 +174,6 @@ cp -r everything-claude-code/rules/golang/* ~/.claude/rules/
 ````
 
 ✨ **That's it!** You now have access to 15+ agents, 30+ skills, and 30+ commands.
->>>>>>> upstream/main
 
 ---
 
@@ -223,11 +217,9 @@ Or use the `/setup-pm` command in Claude Code.
 This repo is a **Claude Code plugin** - install it directly or copy components manually.
 
 ```
-<<<<<<< HEAD
+
 ecc/
-=======
 everything-claude-code/
->>>>>>> upstream/main
 |-- .claude-plugin/   # Plugin and marketplace manifests
 |   |-- plugin.json         # Plugin metadata and component paths
 |   |-- marketplace.json    # Marketplace catalog for /plugin marketplace add
@@ -242,15 +234,13 @@ everything-claude-code/
 |   |-- e2e-runner.md        # Playwright E2E testing
 |   |-- refactor-cleaner.md  # Dead code cleanup
 |   |-- doc-updater.md       # Documentation sync
-<<<<<<< HEAD
+
 |   |-- go-reviewer.md       # Go code review (NEW)
 |   |-- go-build-resolver.md # Go build error resolution (NEW)
-=======
 |   |-- go-reviewer.md       # Go code review
 |   |-- go-build-resolver.md # Go build error resolution
 |   |-- python-reviewer.md   # Python code review (NEW)
 |   |-- database-reviewer.md # Database/Supabase review (NEW)
->>>>>>> upstream/main
 |
 |-- skills/           # Workflow definitions and domain knowledge
 |   |-- coding-standards/           # Language best practices
@@ -264,10 +254,9 @@ everything-claude-code/
 |   |-- security-review/            # Security checklist
 |   |-- eval-harness/               # Verification loop evaluation (Longform Guide)
 |   |-- verification-loop/          # Continuous verification (Longform Guide)
-<<<<<<< HEAD
+
 |   |-- golang-patterns/            # Go idioms and best practices (NEW)
 |   |-- golang-testing/             # Go testing patterns, TDD, benchmarks (NEW)
-=======
 |   |-- golang-patterns/            # Go idioms and best practices
 |   |-- golang-testing/             # Go testing patterns, TDD, benchmarks
 |   |-- cpp-testing/                # C++ testing with GoogleTest, CMake/CTest (NEW)
@@ -301,7 +290,7 @@ everything-claude-code/
 |   |-- instinct-status.md  # /instinct-status - View learned instincts (NEW)
 |   |-- instinct-import.md  # /instinct-import - Import instincts (NEW)
 |   |-- instinct-export.md  # /instinct-export - Export instincts (NEW)
-<<<<<<< HEAD
+
 |   |-- evolve.md           # /evolve - Cluster instincts into skills (NEW)
 |
 |-- rules/            # Always-follow guidelines (copy to ~/.claude/rules/)
@@ -311,7 +300,6 @@ everything-claude-code/
 |   |-- git-workflow.md     # Commit format, PR process
 |   |-- agents.md           # When to delegate to subagents
 |   |-- performance.md      # Model selection, context management
-=======
 |   |-- evolve.md           # /evolve - Cluster instincts into skills
 |   |-- pm2.md              # /pm2 - PM2 service lifecycle management (NEW)
 |   |-- multi-plan.md       # /multi-plan - Multi-agent task decomposition (NEW)
@@ -334,7 +322,6 @@ everything-claude-code/
 |   |-- typescript/          # TypeScript/JavaScript specific
 |   |-- python/              # Python specific
 |   |-- golang/              # Go specific
->>>>>>> upstream/main
 |
 |-- hooks/            # Trigger-based automations
 |   |-- hooks.json                # All hooks config (PreToolUse, PostToolUse, Stop, etc.)
@@ -406,9 +393,8 @@ For advanced features (10k+ commits, auto-PRs, team sharing):
 ```
 
 Both options create:
-<<<<<<< HEAD
 
-=======
+
 
 > > > > > > > upstream/main
 
@@ -464,9 +450,8 @@ See `skills/continuous-learning-v2/` for full documentation.
 This plugin requires Claude Code CLI v2.1.0+ due to changes in how the plugin system handles hooks.
 
 Check your version:
-<<<<<<< HEAD
 
-=======
+
 
 > > > > > > > upstream/main
 
@@ -484,9 +469,8 @@ Claude Code v2.1+ **automatically loads** `hooks/hooks.json` from any installed 
 Duplicate hooks file detected: ./hooks/hooks.json resolves to already-loaded file
 ```
 
-<<<<<<< HEAD
+
 **History:** This has caused repeated fix/revert cycles in this repo ([#29](https://github.com/twebdevemt/ecc/issues/29), [#52](https://github.com/twebdevemt/ecc/issues/52), [#103](https://github.com/twebdevemt/ecc/issues/103)). The behavior changed between Claude Code versions, leading to confusion. We now have a regression test to prevent this from being reintroduced.
-=======
 **History:** This has caused repeated fix/revert cycles in this repo ([#29](https://github.com/affaan-m/everything-claude-code/issues/29), [#52](https://github.com/affaan-m/everything-claude-code/issues/52), [#103](https://github.com/affaan-m/everything-claude-code/issues/103)). The behavior changed between Claude Code versions, leading to confusion. We now have a regression test to prevent this from being reintroduced.
 
 > > > > > > > upstream/main
@@ -501,24 +485,22 @@ The easiest way to use this repo - install as a Claude Code plugin:
 
 ```bash
 # Add this repo as a marketplace
-<<<<<<< HEAD
+
 /plugin marketplace add twebdevemt/ecc
 
 # Install the plugin
 /plugin install ecc@ecc
-=======
 /plugin marketplace add affaan-m/everything-claude-code
 
 # Install the plugin
 /plugin install everything-claude-code@everything-claude-code
->>>>>>> upstream/main
 ```
 
 Or add directly to your `~/.claude/settings.json`:
 
 ```json
 {
-<<<<<<< HEAD
+
     "extraKnownMarketplaces": {
         "ecc": {
             "source": {
@@ -530,7 +512,6 @@ Or add directly to your `~/.claude/settings.json`:
     "enabledPlugins": {
         "ecc@ecc": true
     }
-=======
   "extraKnownMarketplaces": {
     "everything-claude-code": {
       "source": {
@@ -542,7 +523,6 @@ Or add directly to your `~/.claude/settings.json`:
   "enabledPlugins": {
     "everything-claude-code@everything-claude-code": true
   }
->>>>>>> upstream/main
 }
 ```
 
@@ -552,7 +532,7 @@ This gives you instant access to all commands, agents, skills, and hooks.
 >
 > ```bash
 > # Clone the repo first
-> <<<<<<< HEAD
+> 
 > git clone https://github.com/twebdevemt/ecc.git
 >
 > # Option A: User-level rules (applies to all projects)
@@ -561,7 +541,7 @@ This gives you instant access to all commands, agents, skills, and hooks.
 > # Option B: Project-level rules (applies to current project only)
 > mkdir -p .claude/rules
 > cp -r ecc/rules/* .claude/rules/
-> =======
+>
 > git clone https://github.com/affaan-m/everything-claude-code.git
 >
 > # Option A: User-level rules (applies to all projects)
@@ -585,7 +565,7 @@ If you prefer manual control over what's installed:
 
 ```bash
 # Clone the repo
-<<<<<<< HEAD
+
 git clone https://github.com/twebdevemt/ecc.git
 
 # Copy agents to your Claude config
@@ -599,7 +579,6 @@ cp ecc/commands/*.md ~/.claude/commands/
 
 # Copy skills
 cp -r ecc/skills/* ~/.claude/skills/
-=======
 git clone https://github.com/affaan-m/everything-claude-code.git
 
 # Copy agents to your Claude config
@@ -616,7 +595,6 @@ cp everything-claude-code/commands/*.md ~/.claude/commands/
 
 # Copy skills
 cp -r everything-claude-code/skills/* ~/.claude/skills/
->>>>>>> upstream/main
 ```
 
 #### Add hooks to settings.json
@@ -668,7 +646,7 @@ Hooks fire on tool events. Example - warn about console.log:
 
 ```json
 {
-<<<<<<< HEAD
+
     "matcher": "tool == \"Edit\" && tool_input.file_path matches \"\\\\.(ts|tsx|js|jsx)$\"",
     "hooks": [
         {
@@ -676,19 +654,17 @@ Hooks fire on tool events. Example - warn about console.log:
             "command": "#!/bin/bash\ngrep -n 'console\\.log' \"$file_path\" && echo '[Hook] Remove console.log' >&2"
         }
     ]
-=======
   "matcher": "tool == \"Edit\" && tool_input.file_path matches \"\\\\.(ts|tsx|js|jsx)$\"",
   "hooks": [{
     "type": "command",
     "command": "#!/bin/bash\ngrep -n 'console\\.log' \"$file_path\" && echo '[Hook] Remove console.log' >&2"
   }]
->>>>>>> upstream/main
 }
 ```
 
 ### Rules
 
-<<<<<<< HEAD
+
 Rules are always-follow guidelines. Keep them modular:
 
 ```
@@ -698,7 +674,6 @@ Rules are always-follow guidelines. Keep them modular:
   testing.md       # TDD, coverage requirements
 ```
 
-=======
 Rules are always-follow guidelines, organized into `common/` (language-agnostic) + language-specific directories:
 
 ```
@@ -736,9 +711,8 @@ node tests/hooks/hooks.test.js
 **Contributions are welcome and encouraged.**
 
 This repo is meant to be a community resource. If you have:
-<<<<<<< HEAD
 
-=======
+
 
 > > > > > > > upstream/main
 
@@ -751,7 +725,7 @@ Please contribute! See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 
 ### Ideas for Contributions
 
-<<<<<<< HEAD
+
 
 - Language-specific skills (Python, Rust patterns) - Go now included!
 - Framework-specific configs (Django, Rails, Laravel)
@@ -796,7 +770,7 @@ See [.cursor/README.md](.cursor/README.md) for details and [.cursor/MIGRATION.md
 
 ---
 
-# <<<<<<< HEAD
+# 
 
 ## 🔌 OpenCode Support
 
@@ -918,9 +892,8 @@ These configs are battle-tested across multiple production applications.
 **Critical:** Don't enable all MCPs at once. Your 200k context window can shrink to 70k with too many tools enabled.
 
 Rule of thumb:
-<<<<<<< HEAD
 
-=======
+
 
 > > > > > > > upstream/main
 
@@ -933,9 +906,8 @@ Use `disabledMcpServers` in project config to disable unused ones.
 ### Customization
 
 These configs work for my workflow. You should:
-<<<<<<< HEAD
 
-=======
+
 
 > > > > > > > upstream/main
 
@@ -948,9 +920,8 @@ These configs work for my workflow. You should:
 
 ## 🌟 Star History
 
-<<<<<<< HEAD
+
 [![Star History Chart](https://api.star-history.com/svg?repos=twebdevemt/ecc&type=Date)](https://star-history.com/#twebdevemt/ecc&Date)
-=======
 [![Star History Chart](https://api.star-history.com/svg?repos=affaan-m/everything-claude-code&type=Date)](https://star-history.com/#affaan-m/everything-claude-code&Date)
 
 > > > > > > > upstream/main
