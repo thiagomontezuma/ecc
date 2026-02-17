@@ -3,6 +3,7 @@
 ```bash
 npx skills add https://github.com/vercel-labs/agent-skills --skill react-best-practices
 npx skills add https://github.com/vercel-labs/agent-skills --skill web-design-guidelines
+npx skills add vercel-labs/agent-browser
 
 npx skills add https://github.com/squirrelscan/skills --skill audit-website
 
